@@ -110,3 +110,12 @@ body{
     padding: 5px;
     border-radius: 5px;
 }
+
+@media screen and (max-width:480px)
+{
+#staff .container .row .col-md-3 img{
+ width: 60%;
+ height: 230px;
+ object-fit: cover;
+}
+}
